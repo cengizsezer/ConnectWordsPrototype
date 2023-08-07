@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<linker>
+  <assembly fullname="System">
+    <type fullname="System.ComponentModel.TypeConverter" preserve="all" />
+	  <assembly fullname="Newtonsoft.Json" preserve="all"/>
+	  <assembly fullname="Newtonsoft.Json">
+		  <type fullname="Newtonsoft.Json.Serialization.DefaultContractResolver/EnumerableDictionaryWrapper`2" preserve="all" />
+	  </assembly>
+    <!-- <namespace fullname="System.ComponentModel" preserve="all" /> -->
+  </assembly>
+</linker>

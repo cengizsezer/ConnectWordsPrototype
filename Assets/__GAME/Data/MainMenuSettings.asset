@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48a0a84f50991b9408152228b8ef7e4e, type: 3}
+  m_Name: MainMenuSettings
+  m_EditorClassIdentifier: 
+  shopControllerSettings:
+    shopBGMovingDuration: 0.3
+    shopBGMovingEndValue: 0
+    shopBGMovingEase: 11
+  toggleControllerSettings:
+    Name: 
+  chapterControllerSettings:
+    chapterBGMovingDuration: 0.3
+    chapterBGMovingEndValue: 0
+    chapterBGMovingEase: 11
+  giftBoxControllerSettings:
+    giftPanelBGMovingDuration: 0.3
+    giftPanelBGMovingEndValue: 0
+    giftPanelBGMovingEase: 11

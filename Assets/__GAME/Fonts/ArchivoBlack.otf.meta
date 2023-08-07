@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 65d013a41a14a8447a0c97229a76472f
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Archivo Black
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 4921202710cb3d44586aa8ec7490bcce, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
