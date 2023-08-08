@@ -136,6 +136,7 @@ public class DailyPrizeManager : MonoSingleton<DailyPrizeManager>
 
 }
 ```
+
 ### 2. MAINMENU SCENE
 - Oyun 1 Chaper 12 Level olacak sekilde tasarlanmıstır. Oyuncu Levelleri gectikce kilitli olanlar acılır. Oyuncu GameIn scne ile Main scene arasında geçiş yapabilir ve geçtiği chapter ve levelleri tekrar oynayabilmektedir.<br/>
 
@@ -149,7 +150,14 @@ public class DailyPrizeManager : MonoSingleton<DailyPrizeManager>
 
 ```
 
+
+https://github.com/cengizsezer/ConnectWordsPrototype/assets/79985357/4ffaa687-6b1c-40db-a015-0aea61cb65f8
+
+
 ### 2. GAMEIN SCENE
+
+https://github.com/cengizsezer/ConnectWordsPrototype/assets/79985357/3ddadf6c-3881-4fe3-a166-b4af8838b7cc
+
 - Oyunun Oynandığı Scenedir<br/>
 
 - HintButtonu,Settings, Üst Board,Alt Boarddan oluşur.<br/>
@@ -323,3 +331,7 @@ public interface IBoard : IGenericBase<BoardCell>
 
 }
 ```
+
+
+
+
