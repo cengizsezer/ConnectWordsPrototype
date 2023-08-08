@@ -1,4 +1,8 @@
-# ConnectWordsPrototype Oyun Oynanışı: Alt boardda ki sayıların grid üzerinde hareket ederek çizilen Line'ler ile harflere bağlanması ve üst boardda ki bulunduğu levele ait DOGRU kelime veya kelimelerin bulunmaya calısıldıgı bir 2D kelime-puzzle oyunudur.
+# PROJJE ADI:
+ConnectWordsPrototype
+## OYUN HAKKINDA:
+Alt boardda ki sayıların grid üzerinde hareket ederek çizilen Line'ler ile harflere bağlanması ve üst boardda ki bulunduğu levele ait DOGRU kelime veya kelimelerin bulunmaya calısıldıgı bir 2D kelime-puzzle oyunudur.<br/>
+
 Developer için Açıklama : Oyun 3 scene'den olusmaktadır. İlk scene Loading Scenedir.
 Bu Scene GameManager,SaveLoadManager,PrizeManager,VibrationManager ve DailiyManager classları PersistentSingleton olarak oluşturulmuştur. Sceneler arası geçişlerde Objelerin Destroy olmasını engellemek için bu şekilde tasarlanmıştır.
 GameManager: Oyunun Levelları JSon dosyasından okunmuştur. GameManager classında Level verilerini yüklediğim classtır. Oyunun Arkaplan Spriteleri ve İngilizce-Türkce dil secimi bu classtan yüklenmistir.
