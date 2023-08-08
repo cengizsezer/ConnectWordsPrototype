@@ -1,4 +1,4 @@
-# PROJJE ADI:
+# PROJE ADI:
 ConnectWordsPrototype
 ## OYUN HAKKINDA:
 Alt boardda ki sayıların grid üzerinde hareket ederek çizilen Line'ler ile harflere bağlanması ve üst boardda ki bulunduğu levele ait DOGRU kelime veya kelimelerin bulunmaya calısıldıgı bir 2D kelime-puzzle oyunudur.<br/>
