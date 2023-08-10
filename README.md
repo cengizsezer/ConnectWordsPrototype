@@ -151,7 +151,7 @@ public class DailyPrizeManager : MonoSingleton<DailyPrizeManager>
 ```
 
 
-https://github.com/cengizsezer/ConnectWordsPrototype/assets/79985357/4ffaa687-6b1c-40db-a015-0aea61cb65f8
+[https://github.com/cengizsezer/ConnectWordsPrototype/assets/79985357/4ffaa687-6b1c-40db-a015-0aea61cb65f8](https://github.com/cengizsezer/ConnectWordsPrototype/assets/79985357/378b53a9-e1a0-4b9f-9461-6c8f8ae81838)
 
 
 ### 2. GAMEIN SCENE
