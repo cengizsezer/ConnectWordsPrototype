@@ -107,6 +107,12 @@ public class WordTableGenerator : GeneratorBase<WordTableGenerator>, IDisposable
                     await Task.Delay(1000);
                     await GameManager.I.OnLevelSuccess();
                 }, TaskScheduler.FromCurrentSynchronizationContext());
+
+            //await MainThreadDispatcher.Instance.ExecuteOnMainThreadAsync(async () =>
+            //{
+            //    await Task.Delay(1000);
+            //    await GameManager.I.OnLevelSuccess();
+            //});
         }
        
     }
