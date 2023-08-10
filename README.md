@@ -156,14 +156,11 @@ public class DailyPrizeManager : MonoSingleton<DailyPrizeManager>
 
 ### 2. GAMEIN SCENE
 
-[https://github.com/cengizsezer/ConnectWordsPrototype/assets/79985357/3ddadf6c-3881-4fe3-a166-b4af8838b7cc](https://github.com/cengizsezer/ConnectWordsPrototype/assets/79985357/b59149f9-6b70-468d-bea6-3e571f066f12)<br/>
-
-                                                                                                                                                                                                                          
+[https://github.com/cengizsezer/ConnectWordsPrototype/assets/79985357/3ddadf6c-3881-4fe3-a166-b4af8838b7cc](https://github.com/cengizsezer/ConnectWordsPrototype/assets/79985357/b59149f9-6b70-468d-bea6-3e571f066f12)
+<br/>
 [https://github.com/cengizsezer/ConnectWordsPrototype/assets/79985357/64bd9ba8-5b78-4fc5-8746-ce643389e4ed<br/>](https://github.com/cengizsezer/ConnectWordsPrototype/assets/79985357/df6f47fd-9341-45c8-ae66-1fbb64522dfb)<br/>
-
-
-[https://github.com/cengizsezer/ConnectWordsPrototype/assets/79985357/49354638-274f-408f-944d-295f5f9a9cb9](https://github.com/cengizsezer/ConnectWordsPrototype/assets/79985357/132af0a9-6d13-4584-a384-beaa26182f54)<br/>
-
+[https://github.com/cengizsezer/ConnectWordsPrototype/assets/79985357/49354638-274f-408f-944d-295f5f9a9cb9](https://github.com/cengizsezer/ConnectWordsPrototype/assets/79985357/132af0a9-6d13-4584-a384-beaa26182f54)
+<br/>
 
 
 - Oyunun Oynandığı Scenedir<br/>
