@@ -158,7 +158,7 @@ public class DailyPrizeManager : MonoSingleton<DailyPrizeManager>
 
 https://github.com/cengizsezer/ConnectWordsPrototype/assets/79985357/3ddadf6c-3881-4fe3-a166-b4af8838b7cc
 https://github.com/cengizsezer/ConnectWordsPrototype/assets/79985357/64bd9ba8-5b78-4fc5-8746-ce643389e4ed
-https://github.com/cengizsezer/ConnectWordsPrototype/assets/79985357/49354638-274f-408f-944d-295f5f9a9cb9
+[https://github.com/cengizsezer/ConnectWordsPrototype/assets/79985357/49354638-274f-408f-944d-295f5f9a9cb9](https://github.com/cengizsezer/ConnectWordsPrototype/assets/79985357/132af0a9-6d13-4584-a384-beaa26182f54)
 
 
 - Oyunun Oynandığı Scenedir<br/>
