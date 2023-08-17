@@ -796,10 +796,6 @@
       <Project>{D674C81C-576D-C86B-3D84-E1912A18DA8D}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
-    <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
-      <Project>{94F3C535-53F6-AC98-F5DE-4B85FA1EC456}</Project>
-      <Name>Assembly-CSharp-Editor-firstpass</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
       <Project>{B6730267-A5E4-7618-C58A-DC791BD6661C}</Project>
       <Name>UnityEditor.TestRunner</Name>

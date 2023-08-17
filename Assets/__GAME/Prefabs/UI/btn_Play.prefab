@@ -1,116 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &8663319559532579399
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8663319559532579448}
-  - component: {fileID: 8663319559532579450}
-  - component: {fileID: 8663319559532579449}
-  m_Layer: 5
-  m_Name: img_innerShadow
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &8663319559532579448
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8663319559532579399}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 8663319560243289156}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -21.1972, y: -21.1972}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &8663319559532579450
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8663319559532579399}
-  m_CullTransparentMesh: 1
---- !u!114 &8663319559532579449
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8663319559532579399}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a132ebb16d23354b841b6618f4fa0e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.42745098}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3b5eea0d0618d4b5990daedbe44c8847, type: 3}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  colorMode: 0
-  secondColor: {r: 1, g: 1, b: 1, a: 1}
-  materialProperties:
-    FloatProperties: []
-  materialType: Default
-  materialEffect: 0
-  materialProperty1: 0
-  materialProperty2: 0
-  materialProperty3: 0
-  keepBorderAspectRatio: 1
-  spriteBorderScaleFallback:
-    screenConfigName: 
-    OptimizedSize: {x: 1, y: 1}
-    MinSize: {x: 0, y: 0}
-    MaxSize: {x: 3, y: 3}
-    ModX:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-    ModY:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-  customBorderScales:
-    items: []
-  fallbackSpriteSettings:
-    Sprite: {fileID: 21300000, guid: 3b5eea0d0618d4b5990daedbe44c8847, type: 3}
-    ColorMode: 0
-    PrimaryColor: {r: 0, g: 0, b: 0, a: 0.42745098}
-    SecondaryColor: {r: 1, g: 1, b: 1, a: 1}
-    screenConfigName: 
-  customSpriteSettings:
-    items: []
 --- !u!1 &8663319560237570846
 GameObject:
   m_ObjectHideFlags: 0
@@ -143,7 +32,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8663319560243289156}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -218,10 +107,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8663319560243289156}
   - component: {fileID: 8663319560243289159}
-  - component: {fileID: 8663319560243289158}
   - component: {fileID: 8663319560243289157}
   - component: {fileID: 8663319560243289208}
   - component: {fileID: 9138841060216091773}
+  - component: {fileID: 5556075271996206965}
   m_Layer: 5
   m_Name: btn_Play
   m_TagString: Untagged
@@ -241,7 +130,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 8663319559532579448}
   - {fileID: 8663319560498422979}
   - {fileID: 2013173083732493224}
   - {fileID: 8663319560237570847}
@@ -261,71 +149,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8663319560243289155}
   m_CullTransparentMesh: 1
---- !u!114 &8663319560243289158
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8663319560243289155}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a132ebb16d23354b841b6618f4fa0e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3ebb33b18d5ebac40bb81b9b68d8dda6, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  colorMode: 2
-  secondColor: {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 1}
-  materialProperties:
-    FloatProperties: []
-  materialType: Default
-  materialEffect: 0
-  materialProperty1: 0
-  materialProperty2: 0
-  materialProperty3: 0
-  keepBorderAspectRatio: 1
-  spriteBorderScaleFallback:
-    screenConfigName: 
-    OptimizedSize: {x: 1, y: 1}
-    MinSize: {x: 0, y: 0}
-    MaxSize: {x: 3, y: 3}
-    ModX:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-    ModY:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-  customBorderScales:
-    items: []
-  fallbackSpriteSettings:
-    Sprite: {fileID: 21300000, guid: 3ebb33b18d5ebac40bb81b9b68d8dda6, type: 3}
-    ColorMode: 2
-    PrimaryColor: {r: 1, g: 1, b: 1, a: 1}
-    SecondaryColor: {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 1}
-    screenConfigName: 
-  customSpriteSettings:
-    items: []
 --- !u!114 &8663319560243289157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -366,7 +189,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 8663319560243289158}
+  m_TargetGraphic: {fileID: 0}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -423,6 +246,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 1
+--- !u!114 &5556075271996206965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8663319560243289155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 3ebb33b18d5ebac40bb81b9b68d8dda6, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &8663319560498422978
 GameObject:
   m_ObjectHideFlags: 0
@@ -455,7 +308,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8663319560243289156}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -602,7 +455,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7190684540804691325, guid: 87e4cfdef6ce04f6fa3f0d81698982e2, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7190684540804691325, guid: 87e4cfdef6ce04f6fa3f0d81698982e2, type: 3}
       propertyPath: m_AnchorMax.x

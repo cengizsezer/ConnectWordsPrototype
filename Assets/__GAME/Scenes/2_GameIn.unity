@@ -268,7 +268,7 @@ GameObject:
   m_Component:
   - component: {fileID: 101450140}
   - component: {fileID: 101450142}
-  - component: {fileID: 101450141}
+  - component: {fileID: 101450143}
   m_Layer: 5
   m_Name: img_fillInner_PrizeProgress
   m_TagString: Untagged
@@ -297,7 +297,15 @@ RectTransform:
   m_AnchoredPosition: {x: 2.130005, y: -50.059998}
   m_SizeDelta: {x: -61.85, y: -167.77}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &101450141
+--- !u!222 &101450142
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 101450139}
+  m_CullTransparentMesh: 1
+--- !u!114 &101450143
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -306,7 +314,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 101450139}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a132ebb16d23354b841b6618f4fa0e5, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -318,58 +326,15 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 2e91c58ffc15bf5499ca26a7fa996d9a, type: 3}
-  m_Type: 3
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
-  m_FillMethod: 0
-  m_FillAmount: 0
+  m_FillMethod: 4
+  m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
-  colorMode: 0
-  secondColor: {r: 1, g: 1, b: 1, a: 1}
-  materialProperties:
-    FloatProperties: []
-  materialType: Default
-  materialEffect: 0
-  materialProperty1: 0
-  materialProperty2: 0
-  materialProperty3: 0
-  keepBorderAspectRatio: 1
-  spriteBorderScaleFallback:
-    screenConfigName: 
-    OptimizedSize: {x: 1, y: 1}
-    MinSize: {x: 0, y: 0}
-    MaxSize: {x: 3, y: 3}
-    ModX:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-    ModY:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-  customBorderScales:
-    items: []
-  fallbackSpriteSettings:
-    Sprite: {fileID: 21300000, guid: 2e91c58ffc15bf5499ca26a7fa996d9a, type: 3}
-    ColorMode: 0
-    PrimaryColor: {r: 1, g: 1, b: 1, a: 1}
-    SecondaryColor: {r: 1, g: 1, b: 1, a: 1}
-    screenConfigName: 
-  customSpriteSettings:
-    items: []
---- !u!222 &101450142
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 101450139}
-  m_CullTransparentMesh: 1
 --- !u!1 &181202600
 GameObject:
   m_ObjectHideFlags: 0
@@ -540,7 +505,7 @@ RectTransform:
   m_Children:
   - {fileID: 736810872}
   m_Father: {fileID: 353145105}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -653,7 +618,7 @@ GameObject:
   m_Component:
   - component: {fileID: 189836917}
   - component: {fileID: 189836919}
-  - component: {fileID: 189836918}
+  - component: {fileID: 189836920}
   m_Layer: 5
   m_Name: img_fillInner_PrizeProgress
   m_TagString: Untagged
@@ -682,7 +647,15 @@ RectTransform:
   m_AnchoredPosition: {x: 0.730011, y: -62.27999}
   m_SizeDelta: {x: -60.43, y: -196.77}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &189836918
+--- !u!222 &189836919
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 189836916}
+  m_CullTransparentMesh: 1
+--- !u!114 &189836920
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -691,7 +664,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 189836916}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a132ebb16d23354b841b6618f4fa0e5, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -703,58 +676,15 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 2e91c58ffc15bf5499ca26a7fa996d9a, type: 3}
-  m_Type: 3
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
-  m_FillMethod: 0
-  m_FillAmount: 0
+  m_FillMethod: 4
+  m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
-  colorMode: 0
-  secondColor: {r: 1, g: 1, b: 1, a: 1}
-  materialProperties:
-    FloatProperties: []
-  materialType: Default
-  materialEffect: 0
-  materialProperty1: 0
-  materialProperty2: 0
-  materialProperty3: 0
-  keepBorderAspectRatio: 1
-  spriteBorderScaleFallback:
-    screenConfigName: 
-    OptimizedSize: {x: 1, y: 1}
-    MinSize: {x: 0, y: 0}
-    MaxSize: {x: 3, y: 3}
-    ModX:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-    ModY:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-  customBorderScales:
-    items: []
-  fallbackSpriteSettings:
-    Sprite: {fileID: 21300000, guid: 2e91c58ffc15bf5499ca26a7fa996d9a, type: 3}
-    ColorMode: 0
-    PrimaryColor: {r: 1, g: 1, b: 1, a: 1}
-    SecondaryColor: {r: 1, g: 1, b: 1, a: 1}
-    screenConfigName: 
-  customSpriteSettings:
-    items: []
---- !u!222 &189836919
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 189836916}
-  m_CullTransparentMesh: 1
 --- !u!1001 &213167118
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1649,10 +1579,10 @@ GameObject:
   m_Component:
   - component: {fileID: 353145105}
   - component: {fileID: 353145110}
-  - component: {fileID: 353145109}
   - component: {fileID: 353145108}
   - component: {fileID: 353145107}
   - component: {fileID: 353145106}
+  - component: {fileID: 353145111}
   m_Layer: 5
   m_Name: btn_RewardedClaim
   m_TagString: Untagged
@@ -1673,7 +1603,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 987385848}
-  - {fileID: 1746969101}
   - {fileID: 784586472}
   - {fileID: 187443488}
   - {fileID: 1908866168}
@@ -1766,7 +1695,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 353145109}
+  m_TargetGraphic: {fileID: 353145111}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -1782,7 +1711,15 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &353145109
+--- !u!222 &353145110
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 353145104}
+  m_CullTransparentMesh: 1
+--- !u!114 &353145111
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1791,7 +1728,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 353145104}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a132ebb16d23354b841b6618f4fa0e5, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -1803,7 +1740,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 3ebb33b18d5ebac40bb81b9b68d8dda6, type: 3}
-  m_Type: 0
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1812,49 +1749,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
-  colorMode: 2
-  secondColor: {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 1}
-  materialProperties:
-    FloatProperties: []
-  materialType: Default
-  materialEffect: 0
-  materialProperty1: 0
-  materialProperty2: 0
-  materialProperty3: 0
-  keepBorderAspectRatio: 1
-  spriteBorderScaleFallback:
-    screenConfigName: 
-    OptimizedSize: {x: 1, y: 1}
-    MinSize: {x: 0, y: 0}
-    MaxSize: {x: 3, y: 3}
-    ModX:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-    ModY:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-  customBorderScales:
-    items: []
-  fallbackSpriteSettings:
-    Sprite: {fileID: 21300000, guid: 3ebb33b18d5ebac40bb81b9b68d8dda6, type: 3}
-    ColorMode: 2
-    PrimaryColor: {r: 1, g: 1, b: 1, a: 1}
-    SecondaryColor: {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 1}
-    screenConfigName: 
-  customSpriteSettings:
-    items: []
---- !u!222 &353145110
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 353145104}
-  m_CullTransparentMesh: 1
 --- !u!1 &359273778
 GameObject:
   m_ObjectHideFlags: 0
@@ -2195,10 +2089,10 @@ GameObject:
   m_Component:
   - component: {fileID: 388402129}
   - component: {fileID: 388402132}
-  - component: {fileID: 388402133}
   - component: {fileID: 388402130}
   - component: {fileID: 388402134}
   - component: {fileID: 388402135}
+  - component: {fileID: 388402136}
   m_Layer: 5
   m_Name: btn_Main
   m_TagString: Untagged
@@ -2267,7 +2161,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 388402133}
+  m_TargetGraphic: {fileID: 388402136}
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
@@ -2279,71 +2173,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 388402128}
   m_CullTransparentMesh: 1
---- !u!114 &388402133
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 388402128}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a132ebb16d23354b841b6618f4fa0e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6e0e25f18356768468a2590427adb3a7, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  colorMode: 0
-  secondColor: {r: 1, g: 1, b: 1, a: 1}
-  materialProperties:
-    FloatProperties: []
-  materialType: Default
-  materialEffect: 0
-  materialProperty1: 0
-  materialProperty2: 0
-  materialProperty3: 0
-  keepBorderAspectRatio: 0
-  spriteBorderScaleFallback:
-    screenConfigName: 
-    OptimizedSize: {x: 1, y: 1}
-    MinSize: {x: 0, y: 0}
-    MaxSize: {x: 3, y: 3}
-    ModX:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-    ModY:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-  customBorderScales:
-    items: []
-  fallbackSpriteSettings:
-    Sprite: {fileID: 21300000, guid: 6e0e25f18356768468a2590427adb3a7, type: 3}
-    ColorMode: 0
-    PrimaryColor: {r: 1, g: 1, b: 1, a: 1}
-    SecondaryColor: {r: 1, g: 1, b: 1, a: 1}
-    screenConfigName: 
-  customSpriteSettings:
-    items: []
 --- !u!114 &388402134
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2374,6 +2203,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 1
+--- !u!114 &388402136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 388402128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 6e0e25f18356768468a2590427adb3a7, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &392687446
 GameObject:
   m_ObjectHideFlags: 0
@@ -3029,8 +2888,8 @@ MonoBehaviour:
   txt_Coin: {fileID: 1924080842122313531}
   BGEase: 21
   BGMovingDuration: 0.5
-  fillPrize: {fileID: 101450141}
-  fillLevel: {fileID: 189836918}
+  fillPrize: {fileID: 101450143}
+  fillLevel: {fileID: 189836920}
   Header: {fileID: 635691518}
   currentChapterImage: {fileID: 925790039}
   initPosGiftPrize: {x: 0, y: 880}
@@ -3610,7 +3469,7 @@ RectTransform:
   m_Children:
   - {fileID: 1338422167}
   m_Father: {fileID: 1200710158}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -4224,7 +4083,7 @@ GameObject:
   m_Component:
   - component: {fileID: 635691518}
   - component: {fileID: 635691520}
-  - component: {fileID: 635691519}
+  - component: {fileID: 635691521}
   m_Layer: 5
   m_Name: img_ribbon
   m_TagString: Untagged
@@ -4253,7 +4112,15 @@ RectTransform:
   m_AnchoredPosition: {x: -1.6799927, y: -406.66504}
   m_SizeDelta: {x: -179.78004, y: 178.46}
   m_Pivot: {x: 0.5, y: 1}
---- !u!114 &635691519
+--- !u!222 &635691520
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 635691517}
+  m_CullTransparentMesh: 1
+--- !u!114 &635691521
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4262,7 +4129,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 635691517}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a132ebb16d23354b841b6618f4fa0e5, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -4283,49 +4150,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
-  colorMode: 0
-  secondColor: {r: 1, g: 1, b: 1, a: 1}
-  materialProperties:
-    FloatProperties: []
-  materialType: Default
-  materialEffect: 0
-  materialProperty1: 0
-  materialProperty2: 0
-  materialProperty3: 0
-  keepBorderAspectRatio: 0
-  spriteBorderScaleFallback:
-    screenConfigName: 
-    OptimizedSize: {x: 1, y: 1}
-    MinSize: {x: 0, y: 0}
-    MaxSize: {x: 3, y: 3}
-    ModX:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-    ModY:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-  customBorderScales:
-    items: []
-  fallbackSpriteSettings:
-    Sprite: {fileID: 21300000, guid: 0067f9026b6ef6d4e849a7e736f6a392, type: 3}
-    ColorMode: 0
-    PrimaryColor: {r: 1, g: 1, b: 1, a: 1}
-    SecondaryColor: {r: 1, g: 1, b: 1, a: 1}
-    screenConfigName: 
-  customSpriteSettings:
-    items: []
---- !u!222 &635691520
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 635691517}
-  m_CullTransparentMesh: 1
 --- !u!1 &644532543
 GameObject:
   m_ObjectHideFlags: 0
@@ -4508,7 +4332,7 @@ GameObject:
   m_Component:
   - component: {fileID: 645731101}
   - component: {fileID: 645731103}
-  - component: {fileID: 645731102}
+  - component: {fileID: 645731104}
   m_Layer: 5
   m_Name: img_fillBar
   m_TagString: Untagged
@@ -4538,7 +4362,15 @@ RectTransform:
   m_AnchoredPosition: {x: -0.000030517578, y: -12.88}
   m_SizeDelta: {x: 722, y: 234.04}
   m_Pivot: {x: 0, y: 0.5}
---- !u!114 &645731102
+--- !u!222 &645731103
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 645731100}
+  m_CullTransparentMesh: 1
+--- !u!114 &645731104
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4547,7 +4379,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 645731100}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a132ebb16d23354b841b6618f4fa0e5, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -4568,49 +4400,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
-  colorMode: 0
-  secondColor: {r: 1, g: 1, b: 1, a: 1}
-  materialProperties:
-    FloatProperties: []
-  materialType: Default
-  materialEffect: 0
-  materialProperty1: 0
-  materialProperty2: 0
-  materialProperty3: 0
-  keepBorderAspectRatio: 1
-  spriteBorderScaleFallback:
-    screenConfigName: 
-    OptimizedSize: {x: 1, y: 1}
-    MinSize: {x: 0.01, y: 0}
-    MaxSize: {x: 3, y: 3}
-    ModX:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-    ModY:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-  customBorderScales:
-    items: []
-  fallbackSpriteSettings:
-    Sprite: {fileID: 21300000, guid: 434d62ea43f1dd444aadfa1ded17375b, type: 3}
-    ColorMode: 0
-    PrimaryColor: {r: 1, g: 1, b: 1, a: 1}
-    SecondaryColor: {r: 1, g: 1, b: 1, a: 1}
-    screenConfigName: 
-  customSpriteSettings:
-    items: []
---- !u!222 &645731103
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 645731100}
-  m_CullTransparentMesh: 1
 --- !u!1 &654641540
 GameObject:
   m_ObjectHideFlags: 0
@@ -4792,9 +4581,9 @@ GameObject:
   m_Component:
   - component: {fileID: 694189693}
   - component: {fileID: 694189696}
-  - component: {fileID: 694189695}
   - component: {fileID: 694189694}
   - component: {fileID: 694189697}
+  - component: {fileID: 694189699}
   m_Layer: 5
   m_Name: btn_Vibration
   m_TagString: Untagged
@@ -4863,7 +4652,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 694189695}
+  m_TargetGraphic: {fileID: 694189699}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -4879,71 +4668,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
---- !u!114 &694189695
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 694189692}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a132ebb16d23354b841b6618f4fa0e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2c3a827c28b818840bb2a7ab78f40101, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  colorMode: 0
-  secondColor: {r: 0.30980393, g: 0.42352945, b: 0.8313726, a: 1}
-  materialProperties:
-    FloatProperties: []
-  materialType: Default
-  materialEffect: 0
-  materialProperty1: 0
-  materialProperty2: 0
-  materialProperty3: 0
-  keepBorderAspectRatio: 0
-  spriteBorderScaleFallback:
-    screenConfigName: 
-    OptimizedSize: {x: 1, y: 1}
-    MinSize: {x: 0, y: 0}
-    MaxSize: {x: 3, y: 3}
-    ModX:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-    ModY:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-  customBorderScales:
-    items: []
-  fallbackSpriteSettings:
-    Sprite: {fileID: 21300000, guid: 2c3a827c28b818840bb2a7ab78f40101, type: 3}
-    ColorMode: 0
-    PrimaryColor: {r: 1, g: 1, b: 1, a: 1}
-    SecondaryColor: {r: 0.30980393, g: 0.42352945, b: 0.8313726, a: 1}
-    screenConfigName: 
-  customSpriteSettings:
-    items: []
 --- !u!222 &694189696
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4969,6 +4693,36 @@ MonoBehaviour:
   txt: {fileID: 0}
   img_Active: {fileID: 0}
   type: 3
+--- !u!114 &694189699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 694189692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 2c3a827c28b818840bb2a7ab78f40101, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &696911821
 GameObject:
   m_ObjectHideFlags: 0
@@ -4979,9 +4733,9 @@ GameObject:
   m_Component:
   - component: {fileID: 696911822}
   - component: {fileID: 696911825}
-  - component: {fileID: 696911824}
   - component: {fileID: 696911823}
   - component: {fileID: 696911826}
+  - component: {fileID: 696911827}
   m_Layer: 5
   m_Name: btn_Music
   m_TagString: Untagged
@@ -5050,7 +4804,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 696911824}
+  m_TargetGraphic: {fileID: 696911827}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -5066,71 +4820,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
---- !u!114 &696911824
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 696911821}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a132ebb16d23354b841b6618f4fa0e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1528da0e88dd94c4193a29c27861e382, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  colorMode: 0
-  secondColor: {r: 0.30980393, g: 0.42352945, b: 0.8313726, a: 1}
-  materialProperties:
-    FloatProperties: []
-  materialType: Default
-  materialEffect: 0
-  materialProperty1: 0
-  materialProperty2: 0
-  materialProperty3: 0
-  keepBorderAspectRatio: 0
-  spriteBorderScaleFallback:
-    screenConfigName: 
-    OptimizedSize: {x: 1, y: 1}
-    MinSize: {x: 0, y: 0}
-    MaxSize: {x: 3, y: 3}
-    ModX:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-    ModY:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-  customBorderScales:
-    items: []
-  fallbackSpriteSettings:
-    Sprite: {fileID: 21300000, guid: 1528da0e88dd94c4193a29c27861e382, type: 3}
-    ColorMode: 0
-    PrimaryColor: {r: 1, g: 1, b: 1, a: 1}
-    SecondaryColor: {r: 0.30980393, g: 0.42352945, b: 0.8313726, a: 1}
-    screenConfigName: 
-  customSpriteSettings:
-    items: []
 --- !u!222 &696911825
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5156,6 +4845,36 @@ MonoBehaviour:
   txt: {fileID: 0}
   img_Active: {fileID: 0}
   type: 1
+--- !u!114 &696911827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 696911821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 1528da0e88dd94c4193a29c27861e382, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &709727789
 GameObject:
   m_ObjectHideFlags: 0
@@ -5575,7 +5294,7 @@ GameObject:
   m_Component:
   - component: {fileID: 742850311}
   - component: {fileID: 742850313}
-  - component: {fileID: 742850312}
+  - component: {fileID: 742850314}
   m_Layer: 5
   m_Name: img_fillBar
   m_TagString: Untagged
@@ -5604,7 +5323,15 @@ RectTransform:
   m_AnchoredPosition: {x: -0.000030517578, y: 0}
   m_SizeDelta: {x: 722, y: 208.6}
   m_Pivot: {x: 0, y: 0.5}
---- !u!114 &742850312
+--- !u!222 &742850313
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 742850310}
+  m_CullTransparentMesh: 1
+--- !u!114 &742850314
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5613,7 +5340,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 742850310}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a132ebb16d23354b841b6618f4fa0e5, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -5634,49 +5361,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
-  colorMode: 0
-  secondColor: {r: 1, g: 1, b: 1, a: 1}
-  materialProperties:
-    FloatProperties: []
-  materialType: Default
-  materialEffect: 0
-  materialProperty1: 0
-  materialProperty2: 0
-  materialProperty3: 0
-  keepBorderAspectRatio: 1
-  spriteBorderScaleFallback:
-    screenConfigName: 
-    OptimizedSize: {x: 1, y: 1}
-    MinSize: {x: 0.01, y: 0}
-    MaxSize: {x: 3, y: 3}
-    ModX:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-    ModY:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-  customBorderScales:
-    items: []
-  fallbackSpriteSettings:
-    Sprite: {fileID: 21300000, guid: e439bd07e2871bb40b5592978bca8e9c, type: 3}
-    ColorMode: 0
-    PrimaryColor: {r: 1, g: 1, b: 1, a: 1}
-    SecondaryColor: {r: 1, g: 1, b: 1, a: 1}
-    screenConfigName: 
-  customSpriteSettings:
-    items: []
---- !u!222 &742850313
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 742850310}
-  m_CullTransparentMesh: 1
 --- !u!1 &755793681
 GameObject:
   m_ObjectHideFlags: 0
@@ -5842,8 +5526,8 @@ GameObject:
   m_Component:
   - component: {fileID: 784586472}
   - component: {fileID: 784586475}
-  - component: {fileID: 784586474}
   - component: {fileID: 784586473}
+  - component: {fileID: 784586476}
   m_Layer: 5
   m_Name: txt_Play
   m_TagString: Untagged
@@ -5864,7 +5548,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 353145105}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -5885,7 +5569,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   key: claimRewarded
   additionalParams: []
---- !u!114 &784586474
+--- !u!222 &784586475
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 784586471}
+  m_CullTransparentMesh: 1
+--- !u!114 &784586476
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5894,7 +5586,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 784586471}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0220f4040307f2a45a27ef20a895b030, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -5905,17 +5597,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: CLAIM X2
+  m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 693430919429cff4d9e10f1225ca56c8, type: 2}
-  m_sharedMaterial: {fileID: -2935581447736933011, guid: 693430919429cff4d9e10f1225ca56c8, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294966271
-  m_fontColor: {r: 1, g: 0.9858491, b: 0.9999997, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -5932,15 +5624,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 39.7
-  m_fontSizeBase: 24
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
-  m_enableAutoSizing: 1
-  m_fontSizeMin: 12.50625
-  m_fontSizeMax: 50.025
-  m_fontStyle: 17
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -5974,90 +5666,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
-  fitting: 1
-  marginSizerFallback:
-    screenConfigName: 
-    OptimizedSize:
-      left: 0
-      right: 0
-      top: 0
-      bottom: 0
-    MinSize:
-      left: 0
-      right: 0
-      top: 0
-      bottom: 0
-    MaxSize:
-      left: 1000
-      right: 1000
-      top: 1000
-      bottom: 1000
-    ModLeft:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 1
-        Impact: 1
-    ModRight:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 1
-        Impact: 1
-    ModTop:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 1
-        Impact: 1
-    ModBottom:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 1
-        Impact: 1
-  customMarginSizers:
-    items: []
-  fontSizerFallback:
-    screenConfigName: 
-    OptimizedSize: 72
-    MinSize: 10
-    MaxSize: 500
-    Mod:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-  customFontSizers:
-    items: []
-  minFontSizerFallback:
-    screenConfigName: 
-    OptimizedSize: 18
-    MinSize: 10
-    MaxSize: 500
-    Mod:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-  customMinFontSizers:
-    items: []
-  maxFontSizerFallback:
-    screenConfigName: 
-    OptimizedSize: 72
-    MinSize: 500
-    MaxSize: 500
-    Mod:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-  customMaxFontSizers:
-    items: []
---- !u!222 &784586475
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 784586471}
-  m_CullTransparentMesh: 1
 --- !u!1 &803796057
 GameObject:
   m_ObjectHideFlags: 0
@@ -6176,9 +5784,9 @@ GameObject:
   m_Component:
   - component: {fileID: 849142478}
   - component: {fileID: 849142481}
-  - component: {fileID: 849142480}
   - component: {fileID: 849142479}
   - component: {fileID: 849142482}
+  - component: {fileID: 849142483}
   m_Layer: 5
   m_Name: btn_Home
   m_TagString: Untagged
@@ -6247,7 +5855,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 849142480}
+  m_TargetGraphic: {fileID: 849142483}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -6263,71 +5871,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
---- !u!114 &849142480
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 849142477}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a132ebb16d23354b841b6618f4fa0e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d9516cd5a120adc4d9b543dec9db1c64, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  colorMode: 0
-  secondColor: {r: 0.30980393, g: 0.42352945, b: 0.8313726, a: 1}
-  materialProperties:
-    FloatProperties: []
-  materialType: Default
-  materialEffect: 0
-  materialProperty1: 0
-  materialProperty2: 0
-  materialProperty3: 0
-  keepBorderAspectRatio: 0
-  spriteBorderScaleFallback:
-    screenConfigName: 
-    OptimizedSize: {x: 1, y: 1}
-    MinSize: {x: 0, y: 0}
-    MaxSize: {x: 3, y: 3}
-    ModX:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-    ModY:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-  customBorderScales:
-    items: []
-  fallbackSpriteSettings:
-    Sprite: {fileID: 21300000, guid: d9516cd5a120adc4d9b543dec9db1c64, type: 3}
-    ColorMode: 0
-    PrimaryColor: {r: 1, g: 1, b: 1, a: 1}
-    SecondaryColor: {r: 0.30980393, g: 0.42352945, b: 0.8313726, a: 1}
-    screenConfigName: 
-  customSpriteSettings:
-    items: []
 --- !u!222 &849142481
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6353,6 +5896,36 @@ MonoBehaviour:
   txt: {fileID: 0}
   img_Active: {fileID: 0}
   type: 0
+--- !u!114 &849142483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 849142477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: d9516cd5a120adc4d9b543dec9db1c64, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &894528430
 GameObject:
   m_ObjectHideFlags: 0
@@ -6626,7 +6199,7 @@ GameObject:
   m_Component:
   - component: {fileID: 949807350}
   - component: {fileID: 949807352}
-  - component: {fileID: 949807351}
+  - component: {fileID: 949807353}
   m_Layer: 5
   m_Name: img_ribbon
   m_TagString: Untagged
@@ -6655,7 +6228,15 @@ RectTransform:
   m_AnchoredPosition: {x: -1.6799927, y: -406.66504}
   m_SizeDelta: {x: -179.78004, y: 178.46}
   m_Pivot: {x: 0.5, y: 1}
---- !u!114 &949807351
+--- !u!222 &949807352
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 949807349}
+  m_CullTransparentMesh: 1
+--- !u!114 &949807353
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6664,7 +6245,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 949807349}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a132ebb16d23354b841b6618f4fa0e5, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -6685,49 +6266,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
-  colorMode: 0
-  secondColor: {r: 1, g: 1, b: 1, a: 1}
-  materialProperties:
-    FloatProperties: []
-  materialType: Default
-  materialEffect: 0
-  materialProperty1: 0
-  materialProperty2: 0
-  materialProperty3: 0
-  keepBorderAspectRatio: 0
-  spriteBorderScaleFallback:
-    screenConfigName: 
-    OptimizedSize: {x: 1, y: 1}
-    MinSize: {x: 0, y: 0}
-    MaxSize: {x: 3, y: 3}
-    ModX:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-    ModY:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-  customBorderScales:
-    items: []
-  fallbackSpriteSettings:
-    Sprite: {fileID: 21300000, guid: 0067f9026b6ef6d4e849a7e736f6a392, type: 3}
-    ColorMode: 0
-    PrimaryColor: {r: 1, g: 1, b: 1, a: 1}
-    SecondaryColor: {r: 1, g: 1, b: 1, a: 1}
-    screenConfigName: 
-  customSpriteSettings:
-    items: []
---- !u!222 &949807352
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 949807349}
-  m_CullTransparentMesh: 1
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -6843,7 +6381,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1564822220}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
@@ -6898,7 +6436,6 @@ GameObject:
   m_Component:
   - component: {fileID: 972412448}
   - component: {fileID: 972412451}
-  - component: {fileID: 972412450}
   - component: {fileID: 972412449}
   m_Layer: 5
   m_Name: cg_ClaimButton
@@ -6941,36 +6478,6 @@ CanvasGroup:
   m_Interactable: 0
   m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
---- !u!114 &972412450
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 972412447}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
 --- !u!222 &972412451
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6978,117 +6485,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 972412447}
-  m_CullTransparentMesh: 1
---- !u!1 &983902939
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 983902940}
-  - component: {fileID: 983902942}
-  - component: {fileID: 983902941}
-  m_Layer: 5
-  m_Name: img_innerShadow
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &983902940
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 983902939}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1564822220}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -21.1972, y: -21.1972}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &983902941
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 983902939}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a132ebb16d23354b841b6618f4fa0e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.42745098}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3b5eea0d0618d4b5990daedbe44c8847, type: 3}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  colorMode: 0
-  secondColor: {r: 1, g: 1, b: 1, a: 1}
-  materialProperties:
-    FloatProperties: []
-  materialType: Default
-  materialEffect: 0
-  materialProperty1: 0
-  materialProperty2: 0
-  materialProperty3: 0
-  keepBorderAspectRatio: 1
-  spriteBorderScaleFallback:
-    screenConfigName: 
-    OptimizedSize: {x: 1, y: 1}
-    MinSize: {x: 0, y: 0}
-    MaxSize: {x: 3, y: 3}
-    ModX:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-    ModY:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-  customBorderScales:
-    items: []
-  fallbackSpriteSettings:
-    Sprite: {fileID: 21300000, guid: 3b5eea0d0618d4b5990daedbe44c8847, type: 3}
-    ColorMode: 0
-    PrimaryColor: {r: 0, g: 0, b: 0, a: 0.42745098}
-    SecondaryColor: {r: 1, g: 1, b: 1, a: 1}
-    screenConfigName: 
-  customSpriteSettings:
-    items: []
---- !u!222 &983902942
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 983902939}
   m_CullTransparentMesh: 1
 --- !u!1 &987385847
 GameObject:
@@ -7242,117 +6638,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1020370175}
-  m_CullTransparentMesh: 1
---- !u!1 &1026632766
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1026632767}
-  - component: {fileID: 1026632769}
-  - component: {fileID: 1026632768}
-  m_Layer: 5
-  m_Name: img_innerShadow
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1026632767
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1026632766}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1200710158}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -21.1972, y: -21.1972}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1026632768
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1026632766}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a132ebb16d23354b841b6618f4fa0e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.42745098}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3b5eea0d0618d4b5990daedbe44c8847, type: 3}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  colorMode: 0
-  secondColor: {r: 1, g: 1, b: 1, a: 1}
-  materialProperties:
-    FloatProperties: []
-  materialType: Default
-  materialEffect: 0
-  materialProperty1: 0
-  materialProperty2: 0
-  materialProperty3: 0
-  keepBorderAspectRatio: 1
-  spriteBorderScaleFallback:
-    screenConfigName: 
-    OptimizedSize: {x: 1, y: 1}
-    MinSize: {x: 0, y: 0}
-    MaxSize: {x: 3, y: 3}
-    ModX:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-    ModY:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-  customBorderScales:
-    items: []
-  fallbackSpriteSettings:
-    Sprite: {fileID: 21300000, guid: 3b5eea0d0618d4b5990daedbe44c8847, type: 3}
-    ColorMode: 0
-    PrimaryColor: {r: 0, g: 0, b: 0, a: 0.42745098}
-    SecondaryColor: {r: 1, g: 1, b: 1, a: 1}
-    screenConfigName: 
-  customSpriteSettings:
-    items: []
---- !u!222 &1026632769
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1026632766}
   m_CullTransparentMesh: 1
 --- !u!1 &1063596536
 GameObject:
@@ -7704,9 +6989,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1123299929}
   - component: {fileID: 1123299932}
-  - component: {fileID: 1123299931}
   - component: {fileID: 1123299933}
   - component: {fileID: 1123299934}
+  - component: {fileID: 1123299935}
   m_Layer: 5
   m_Name: btn_NextLevel
   m_TagString: Untagged
@@ -7735,71 +7020,6 @@ RectTransform:
   m_AnchoredPosition: {x: -0.000030517578, y: -0.00024414062}
   m_SizeDelta: {x: -0.000061035, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1123299931
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1123299928}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a132ebb16d23354b841b6618f4fa0e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3ebb33b18d5ebac40bb81b9b68d8dda6, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  colorMode: 0
-  secondColor: {r: 0.9019608, g: 0.54901963, b: 0.18431373, a: 1}
-  materialProperties:
-    FloatProperties: []
-  materialType: Default
-  materialEffect: 0
-  materialProperty1: 0
-  materialProperty2: 0
-  materialProperty3: 0
-  keepBorderAspectRatio: 1
-  spriteBorderScaleFallback:
-    screenConfigName: 
-    OptimizedSize: {x: 1, y: 1}
-    MinSize: {x: 0, y: 0}
-    MaxSize: {x: 3, y: 3}
-    ModX:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-    ModY:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-  customBorderScales:
-    items: []
-  fallbackSpriteSettings:
-    Sprite: {fileID: 21300000, guid: 3ebb33b18d5ebac40bb81b9b68d8dda6, type: 3}
-    ColorMode: 0
-    PrimaryColor: {r: 1, g: 1, b: 1, a: 1}
-    SecondaryColor: {r: 0.9019608, g: 0.54901963, b: 0.18431373, a: 1}
-    screenConfigName: 
-  customSpriteSettings:
-    items: []
 --- !u!222 &1123299932
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7848,7 +7068,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 1123299931}
+  m_TargetGraphic: {fileID: 1123299935}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -7877,6 +7097,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 1
+--- !u!114 &1123299935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1123299928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 3ebb33b18d5ebac40bb81b9b68d8dda6, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &1129502015
 GameObject:
   m_ObjectHideFlags: 0
@@ -7887,7 +7137,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1129502016}
   - component: {fileID: 1129502018}
-  - component: {fileID: 1129502017}
+  - component: {fileID: 1129502019}
   m_Layer: 5
   m_Name: img_fillBar
   m_TagString: Untagged
@@ -7916,7 +7166,15 @@ RectTransform:
   m_AnchoredPosition: {x: -0.000030517578, y: 0}
   m_SizeDelta: {x: 722, y: 208.6}
   m_Pivot: {x: 0, y: 0.5}
---- !u!114 &1129502017
+--- !u!222 &1129502018
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1129502015}
+  m_CullTransparentMesh: 1
+--- !u!114 &1129502019
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7925,7 +7183,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1129502015}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a132ebb16d23354b841b6618f4fa0e5, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -7946,49 +7204,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
-  colorMode: 0
-  secondColor: {r: 1, g: 1, b: 1, a: 1}
-  materialProperties:
-    FloatProperties: []
-  materialType: Default
-  materialEffect: 0
-  materialProperty1: 0
-  materialProperty2: 0
-  materialProperty3: 0
-  keepBorderAspectRatio: 1
-  spriteBorderScaleFallback:
-    screenConfigName: 
-    OptimizedSize: {x: 1, y: 1}
-    MinSize: {x: 0.01, y: 0}
-    MaxSize: {x: 3, y: 3}
-    ModX:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-    ModY:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-  customBorderScales:
-    items: []
-  fallbackSpriteSettings:
-    Sprite: {fileID: 21300000, guid: e439bd07e2871bb40b5592978bca8e9c, type: 3}
-    ColorMode: 0
-    PrimaryColor: {r: 1, g: 1, b: 1, a: 1}
-    SecondaryColor: {r: 1, g: 1, b: 1, a: 1}
-    screenConfigName: 
-  customSpriteSettings:
-    items: []
---- !u!222 &1129502018
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1129502015}
-  m_CullTransparentMesh: 1
 --- !u!1 &1146060044
 GameObject:
   m_ObjectHideFlags: 0
@@ -8035,7 +7250,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1147442730}
   - component: {fileID: 1147442732}
-  - component: {fileID: 1147442731}
+  - component: {fileID: 1147442733}
   m_Layer: 5
   m_Name: Ribbon
   m_TagString: Untagged
@@ -8064,7 +7279,15 @@ RectTransform:
   m_AnchoredPosition: {x: -1.6799927, y: -981}
   m_SizeDelta: {x: -179.78004, y: 178.46}
   m_Pivot: {x: 0.5, y: 1}
---- !u!114 &1147442731
+--- !u!222 &1147442732
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1147442729}
+  m_CullTransparentMesh: 1
+--- !u!114 &1147442733
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8073,12 +7296,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1147442729}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a132ebb16d23354b841b6618f4fa0e5, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -8094,49 +7317,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
-  colorMode: 0
-  secondColor: {r: 1, g: 1, b: 1, a: 1}
-  materialProperties:
-    FloatProperties: []
-  materialType: Default
-  materialEffect: 0
-  materialProperty1: 0
-  materialProperty2: 0
-  materialProperty3: 0
-  keepBorderAspectRatio: 0
-  spriteBorderScaleFallback:
-    screenConfigName: 
-    OptimizedSize: {x: 1, y: 1}
-    MinSize: {x: 0, y: 0}
-    MaxSize: {x: 3, y: 3}
-    ModX:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-    ModY:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-  customBorderScales:
-    items: []
-  fallbackSpriteSettings:
-    Sprite: {fileID: 21300000, guid: 0067f9026b6ef6d4e849a7e736f6a392, type: 3}
-    ColorMode: 0
-    PrimaryColor: {r: 1, g: 1, b: 1, a: 1}
-    SecondaryColor: {r: 1, g: 1, b: 1, a: 1}
-    screenConfigName: 
-  customSpriteSettings:
-    items: []
---- !u!222 &1147442732
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1147442729}
-  m_CullTransparentMesh: 1
 --- !u!1 &1197624194
 GameObject:
   m_ObjectHideFlags: 0
@@ -8223,10 +7403,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1200710158}
   - component: {fileID: 1200710163}
-  - component: {fileID: 1200710162}
   - component: {fileID: 1200710161}
   - component: {fileID: 1200710160}
   - component: {fileID: 1200710159}
+  - component: {fileID: 1200710164}
   m_Layer: 5
   m_Name: btn_Claim
   m_TagString: Untagged
@@ -8246,7 +7426,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1026632767}
   - {fileID: 1399773683}
   - {fileID: 580606113}
   m_Father: {fileID: 1068985352}
@@ -8338,7 +7517,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 1200710162}
+  m_TargetGraphic: {fileID: 1200710164}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -8354,7 +7533,15 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &1200710162
+--- !u!222 &1200710163
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1200710157}
+  m_CullTransparentMesh: 1
+--- !u!114 &1200710164
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8363,7 +7550,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1200710157}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a132ebb16d23354b841b6618f4fa0e5, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -8375,7 +7562,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 3ebb33b18d5ebac40bb81b9b68d8dda6, type: 3}
-  m_Type: 0
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -8384,49 +7571,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
-  colorMode: 2
-  secondColor: {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 1}
-  materialProperties:
-    FloatProperties: []
-  materialType: Default
-  materialEffect: 0
-  materialProperty1: 0
-  materialProperty2: 0
-  materialProperty3: 0
-  keepBorderAspectRatio: 1
-  spriteBorderScaleFallback:
-    screenConfigName: 
-    OptimizedSize: {x: 1, y: 1}
-    MinSize: {x: 0, y: 0}
-    MaxSize: {x: 3, y: 3}
-    ModX:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-    ModY:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-  customBorderScales:
-    items: []
-  fallbackSpriteSettings:
-    Sprite: {fileID: 21300000, guid: 3ebb33b18d5ebac40bb81b9b68d8dda6, type: 3}
-    ColorMode: 2
-    PrimaryColor: {r: 1, g: 1, b: 1, a: 1}
-    SecondaryColor: {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 1}
-    screenConfigName: 
-  customSpriteSettings:
-    items: []
---- !u!222 &1200710163
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1200710157}
-  m_CullTransparentMesh: 1
 --- !u!1 &1224514457
 GameObject:
   m_ObjectHideFlags: 0
@@ -8437,9 +7581,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1224514458}
   - component: {fileID: 1224514462}
-  - component: {fileID: 1224514461}
   - component: {fileID: 1224514460}
   - component: {fileID: 1224514459}
+  - component: {fileID: 1224514463}
   m_Layer: 5
   m_Name: btn_Sound
   m_TagString: Untagged
@@ -8525,7 +7669,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 1224514461}
+  m_TargetGraphic: {fileID: 1224514463}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -8541,7 +7685,15 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
---- !u!114 &1224514461
+--- !u!222 &1224514462
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1224514457}
+  m_CullTransparentMesh: 1
+--- !u!114 &1224514463
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8550,7 +7702,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1224514457}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a132ebb16d23354b841b6618f4fa0e5, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -8571,49 +7723,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
-  colorMode: 0
-  secondColor: {r: 0.30980393, g: 0.42352945, b: 0.8313726, a: 1}
-  materialProperties:
-    FloatProperties: []
-  materialType: Default
-  materialEffect: 0
-  materialProperty1: 0
-  materialProperty2: 0
-  materialProperty3: 0
-  keepBorderAspectRatio: 0
-  spriteBorderScaleFallback:
-    screenConfigName: 
-    OptimizedSize: {x: 1, y: 1}
-    MinSize: {x: 0, y: 0}
-    MaxSize: {x: 3, y: 3}
-    ModX:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-    ModY:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-  customBorderScales:
-    items: []
-  fallbackSpriteSettings:
-    Sprite: {fileID: 21300000, guid: f8c27f6c9f7fbf745a59650480b6f1a8, type: 3}
-    ColorMode: 0
-    PrimaryColor: {r: 1, g: 1, b: 1, a: 1}
-    SecondaryColor: {r: 0.30980393, g: 0.42352945, b: 0.8313726, a: 1}
-    screenConfigName: 
-  customSpriteSettings:
-    items: []
---- !u!222 &1224514462
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1224514457}
-  m_CullTransparentMesh: 1
 --- !u!1 &1267222752
 GameObject:
   m_ObjectHideFlags: 0
@@ -8624,8 +7733,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1267222753}
   - component: {fileID: 1267222756}
-  - component: {fileID: 1267222755}
   - component: {fileID: 1267222754}
+  - component: {fileID: 1267222757}
   m_Layer: 5
   m_Name: txt_Play
   m_TagString: Untagged
@@ -8646,7 +7755,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1564822220}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -8667,7 +7776,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   key: claimRewarded
   additionalParams: []
---- !u!114 &1267222755
+--- !u!222 &1267222756
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267222752}
+  m_CullTransparentMesh: 1
+--- !u!114 &1267222757
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8676,7 +7793,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1267222752}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0220f4040307f2a45a27ef20a895b030, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -8687,17 +7804,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: CLAIM x2
+  m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 693430919429cff4d9e10f1225ca56c8, type: 2}
-  m_sharedMaterial: {fileID: -2935581447736933011, guid: 693430919429cff4d9e10f1225ca56c8, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294966271
-  m_fontColor: {r: 1, g: 0.9858491, b: 0.9999997, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -8714,15 +7831,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 39.7
-  m_fontSizeBase: 24
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
-  m_enableAutoSizing: 1
-  m_fontSizeMin: 12.50625
-  m_fontSizeMax: 50.025
-  m_fontStyle: 17
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -8756,90 +7873,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
-  fitting: 1
-  marginSizerFallback:
-    screenConfigName: 
-    OptimizedSize:
-      left: 0
-      right: 0
-      top: 0
-      bottom: 0
-    MinSize:
-      left: 0
-      right: 0
-      top: 0
-      bottom: 0
-    MaxSize:
-      left: 1000
-      right: 1000
-      top: 1000
-      bottom: 1000
-    ModLeft:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 1
-        Impact: 1
-    ModRight:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 1
-        Impact: 1
-    ModTop:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 1
-        Impact: 1
-    ModBottom:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 1
-        Impact: 1
-  customMarginSizers:
-    items: []
-  fontSizerFallback:
-    screenConfigName: 
-    OptimizedSize: 72
-    MinSize: 10
-    MaxSize: 500
-    Mod:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-  customFontSizers:
-    items: []
-  minFontSizerFallback:
-    screenConfigName: 
-    OptimizedSize: 18
-    MinSize: 10
-    MaxSize: 500
-    Mod:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-  customMinFontSizers:
-    items: []
-  maxFontSizerFallback:
-    screenConfigName: 
-    OptimizedSize: 72
-    MinSize: 500
-    MaxSize: 500
-    Mod:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-  customMaxFontSizers:
-    items: []
---- !u!222 &1267222756
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1267222752}
-  m_CullTransparentMesh: 1
 --- !u!1 &1268579047
 GameObject:
   m_ObjectHideFlags: 0
@@ -9715,8 +8748,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1399773683}
   - component: {fileID: 1399773686}
-  - component: {fileID: 1399773685}
   - component: {fileID: 1399773684}
+  - component: {fileID: 1399773687}
   m_Layer: 5
   m_Name: txt_Play
   m_TagString: Untagged
@@ -9737,7 +8770,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1200710158}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -9758,7 +8791,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   key: claim
   additionalParams: []
---- !u!114 &1399773685
+--- !u!222 &1399773686
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1399773682}
+  m_CullTransparentMesh: 1
+--- !u!114 &1399773687
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9767,7 +8808,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1399773682}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0220f4040307f2a45a27ef20a895b030, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -9778,17 +8819,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: CLAIM
+  m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 693430919429cff4d9e10f1225ca56c8, type: 2}
-  m_sharedMaterial: {fileID: -2935581447736933011, guid: 693430919429cff4d9e10f1225ca56c8, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294966271
-  m_fontColor: {r: 1, g: 0.9858491, b: 0.9999997, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -9805,15 +8846,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50.025
-  m_fontSizeBase: 24
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
-  m_enableAutoSizing: 1
-  m_fontSizeMin: 12.50625
-  m_fontSizeMax: 50.025
-  m_fontStyle: 17
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -9847,90 +8888,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
-  fitting: 1
-  marginSizerFallback:
-    screenConfigName: 
-    OptimizedSize:
-      left: 0
-      right: 0
-      top: 0
-      bottom: 0
-    MinSize:
-      left: 0
-      right: 0
-      top: 0
-      bottom: 0
-    MaxSize:
-      left: 1000
-      right: 1000
-      top: 1000
-      bottom: 1000
-    ModLeft:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 1
-        Impact: 1
-    ModRight:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 1
-        Impact: 1
-    ModTop:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 1
-        Impact: 1
-    ModBottom:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 1
-        Impact: 1
-  customMarginSizers:
-    items: []
-  fontSizerFallback:
-    screenConfigName: 
-    OptimizedSize: 72
-    MinSize: 10
-    MaxSize: 500
-    Mod:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-  customFontSizers:
-    items: []
-  minFontSizerFallback:
-    screenConfigName: 
-    OptimizedSize: 18
-    MinSize: 10
-    MaxSize: 500
-    Mod:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-  customMinFontSizers:
-    items: []
-  maxFontSizerFallback:
-    screenConfigName: 
-    OptimizedSize: 72
-    MinSize: 500
-    MaxSize: 500
-    Mod:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-  customMaxFontSizers:
-    items: []
---- !u!222 &1399773686
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1399773682}
-  m_CullTransparentMesh: 1
 --- !u!1 &1420571138
 GameObject:
   m_ObjectHideFlags: 0
@@ -9941,7 +8898,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1420571139}
   - component: {fileID: 1420571141}
-  - component: {fileID: 1420571140}
+  - component: {fileID: 1420571142}
   m_Layer: 5
   m_Name: img_bg
   m_TagString: Untagged
@@ -9972,7 +8929,15 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1420571140
+--- !u!222 &1420571141
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1420571138}
+  m_CullTransparentMesh: 1
+--- !u!114 &1420571142
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9981,7 +8946,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1420571138}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a132ebb16d23354b841b6618f4fa0e5, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -10002,49 +8967,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
-  colorMode: 2
-  secondColor: {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 1}
-  materialProperties:
-    FloatProperties: []
-  materialType: Default
-  materialEffect: 0
-  materialProperty1: 0
-  materialProperty2: 0
-  materialProperty3: 0
-  keepBorderAspectRatio: 1
-  spriteBorderScaleFallback:
-    screenConfigName: 
-    OptimizedSize: {x: 1, y: 1}
-    MinSize: {x: 0, y: 0}
-    MaxSize: {x: 3, y: 3}
-    ModX:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-    ModY:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-  customBorderScales:
-    items: []
-  fallbackSpriteSettings:
-    Sprite: {fileID: 21300000, guid: bc7b0ccf29a019e4d8e2285bac000ccf, type: 3}
-    ColorMode: 2
-    PrimaryColor: {r: 1, g: 1, b: 1, a: 1}
-    SecondaryColor: {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 1}
-    screenConfigName: 
-  customSpriteSettings:
-    items: []
---- !u!222 &1420571141
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1420571138}
-  m_CullTransparentMesh: 1
 --- !u!1 &1431805419
 GameObject:
   m_ObjectHideFlags: 0
@@ -10055,7 +8977,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1431805420}
   - component: {fileID: 1431805422}
-  - component: {fileID: 1431805421}
+  - component: {fileID: 1431805423}
   m_Layer: 5
   m_Name: img_fillBar
   m_TagString: Untagged
@@ -10085,7 +9007,15 @@ RectTransform:
   m_AnchoredPosition: {x: -0.000030517578, y: 0}
   m_SizeDelta: {x: 722, y: 234.04}
   m_Pivot: {x: 0, y: 0.5}
---- !u!114 &1431805421
+--- !u!222 &1431805422
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1431805419}
+  m_CullTransparentMesh: 1
+--- !u!114 &1431805423
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10094,7 +9024,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1431805419}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a132ebb16d23354b841b6618f4fa0e5, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -10115,49 +9045,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
-  colorMode: 0
-  secondColor: {r: 1, g: 1, b: 1, a: 1}
-  materialProperties:
-    FloatProperties: []
-  materialType: Default
-  materialEffect: 0
-  materialProperty1: 0
-  materialProperty2: 0
-  materialProperty3: 0
-  keepBorderAspectRatio: 1
-  spriteBorderScaleFallback:
-    screenConfigName: 
-    OptimizedSize: {x: 1, y: 1}
-    MinSize: {x: 0.01, y: 0}
-    MaxSize: {x: 3, y: 3}
-    ModX:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-    ModY:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-  customBorderScales:
-    items: []
-  fallbackSpriteSettings:
-    Sprite: {fileID: 21300000, guid: 434d62ea43f1dd444aadfa1ded17375b, type: 3}
-    ColorMode: 0
-    PrimaryColor: {r: 1, g: 1, b: 1, a: 1}
-    SecondaryColor: {r: 1, g: 1, b: 1, a: 1}
-    screenConfigName: 
-  customSpriteSettings:
-    items: []
---- !u!222 &1431805422
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1431805419}
-  m_CullTransparentMesh: 1
 --- !u!1 &1436000976
 GameObject:
   m_ObjectHideFlags: 0
@@ -10168,7 +9055,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1436000977}
   - component: {fileID: 1436000979}
-  - component: {fileID: 1436000978}
+  - component: {fileID: 1436000980}
   m_Layer: 5
   m_Name: img_currencyIcon
   m_TagString: Untagged
@@ -10197,7 +9084,15 @@ RectTransform:
   m_AnchoredPosition: {x: 54.6, y: -5}
   m_SizeDelta: {x: 80, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1436000978
+--- !u!222 &1436000979
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1436000976}
+  m_CullTransparentMesh: 1
+--- !u!114 &1436000980
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10206,7 +9101,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1436000976}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a132ebb16d23354b841b6618f4fa0e5, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -10219,7 +9114,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 84fda8a21e800be44b16938f24ee34f0, type: 3}
   m_Type: 0
-  m_PreserveAspect: 1
+  m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -10227,49 +9122,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
-  colorMode: 2
-  secondColor: {r: 0.4292453, g: 0.5499819, b: 1, a: 1}
-  materialProperties:
-    FloatProperties: []
-  materialType: Default
-  materialEffect: 0
-  materialProperty1: 0
-  materialProperty2: 0
-  materialProperty3: 0
-  keepBorderAspectRatio: 0
-  spriteBorderScaleFallback:
-    screenConfigName: 
-    OptimizedSize: {x: 1, y: 1}
-    MinSize: {x: 0, y: 0}
-    MaxSize: {x: 3, y: 3}
-    ModX:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-    ModY:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-  customBorderScales:
-    items: []
-  fallbackSpriteSettings:
-    Sprite: {fileID: 21300000, guid: 84fda8a21e800be44b16938f24ee34f0, type: 3}
-    ColorMode: 2
-    PrimaryColor: {r: 1, g: 1, b: 1, a: 1}
-    SecondaryColor: {r: 0.4292453, g: 0.5499819, b: 1, a: 1}
-    screenConfigName: 
-  customSpriteSettings:
-    items: []
---- !u!222 &1436000979
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1436000976}
-  m_CullTransparentMesh: 1
 --- !u!1 &1440234319
 GameObject:
   m_ObjectHideFlags: 0
@@ -10566,7 +9418,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1549809319}
   - component: {fileID: 1549809321}
-  - component: {fileID: 1549809320}
+  - component: {fileID: 1549809322}
   m_Layer: 5
   m_Name: img_fillInner_PrizeProgress
   m_TagString: Untagged
@@ -10595,71 +9447,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0.010009766, y: -62.57}
   m_SizeDelta: {x: -66.98, y: -209.1}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1549809320
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1549809318}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a132ebb16d23354b841b6618f4fa0e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.28582484, g: 0.9245283, b: 0.19624424, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4ed7edde0ca0b4df3bf64b6d5f288cdf, type: 3}
-  m_Type: 3
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 0
-  m_FillAmount: 0
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  colorMode: 0
-  secondColor: {r: 1, g: 1, b: 1, a: 1}
-  materialProperties:
-    FloatProperties: []
-  materialType: Default
-  materialEffect: 0
-  materialProperty1: 0
-  materialProperty2: 0
-  materialProperty3: 0
-  keepBorderAspectRatio: 1
-  spriteBorderScaleFallback:
-    screenConfigName: 
-    OptimizedSize: {x: 1, y: 1}
-    MinSize: {x: 0, y: 0}
-    MaxSize: {x: 3, y: 3}
-    ModX:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-    ModY:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-  customBorderScales:
-    items: []
-  fallbackSpriteSettings:
-    Sprite: {fileID: 21300000, guid: 4ed7edde0ca0b4df3bf64b6d5f288cdf, type: 3}
-    ColorMode: 0
-    PrimaryColor: {r: 0.28582484, g: 0.9245283, b: 0.19624424, a: 1}
-    SecondaryColor: {r: 1, g: 1, b: 1, a: 1}
-    screenConfigName: 
-  customSpriteSettings:
-    items: []
 --- !u!222 &1549809321
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10668,6 +9455,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1549809318}
   m_CullTransparentMesh: 1
+--- !u!114 &1549809322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1549809318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 2e91c58ffc15bf5499ca26a7fa996d9a, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &1552176553
 GameObject:
   m_ObjectHideFlags: 0
@@ -10754,10 +9571,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1564822220}
   - component: {fileID: 1564822225}
-  - component: {fileID: 1564822224}
   - component: {fileID: 1564822223}
   - component: {fileID: 1564822222}
   - component: {fileID: 1564822221}
+  - component: {fileID: 1564822226}
   m_Layer: 5
   m_Name: btn_RewardedClaim
   m_TagString: Untagged
@@ -10777,7 +9594,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 983902940}
   - {fileID: 1267222753}
   - {fileID: 2119217749}
   - {fileID: 963383032}
@@ -10870,7 +9686,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 1564822224}
+  m_TargetGraphic: {fileID: 1564822226}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -10886,7 +9702,15 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &1564822224
+--- !u!222 &1564822225
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564822219}
+  m_CullTransparentMesh: 1
+--- !u!114 &1564822226
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10895,7 +9719,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1564822219}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a132ebb16d23354b841b6618f4fa0e5, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -10907,7 +9731,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 3ebb33b18d5ebac40bb81b9b68d8dda6, type: 3}
-  m_Type: 0
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -10916,49 +9740,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
-  colorMode: 2
-  secondColor: {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 1}
-  materialProperties:
-    FloatProperties: []
-  materialType: Default
-  materialEffect: 0
-  materialProperty1: 0
-  materialProperty2: 0
-  materialProperty3: 0
-  keepBorderAspectRatio: 1
-  spriteBorderScaleFallback:
-    screenConfigName: 
-    OptimizedSize: {x: 1, y: 1}
-    MinSize: {x: 0, y: 0}
-    MaxSize: {x: 3, y: 3}
-    ModX:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-    ModY:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-  customBorderScales:
-    items: []
-  fallbackSpriteSettings:
-    Sprite: {fileID: 21300000, guid: 3ebb33b18d5ebac40bb81b9b68d8dda6, type: 3}
-    ColorMode: 2
-    PrimaryColor: {r: 1, g: 1, b: 1, a: 1}
-    SecondaryColor: {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 1}
-    screenConfigName: 
-  customSpriteSettings:
-    items: []
---- !u!222 &1564822225
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1564822219}
-  m_CullTransparentMesh: 1
 --- !u!1 &1566139224
 GameObject:
   m_ObjectHideFlags: 0
@@ -11045,7 +9826,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1568835967}
   - component: {fileID: 1568835970}
-  - component: {fileID: 1568835969}
   - component: {fileID: 1568835968}
   m_Layer: 5
   m_Name: pnl_nexLevelButton
@@ -11087,71 +9867,6 @@ CanvasGroup:
   m_Interactable: 0
   m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
---- !u!114 &1568835969
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1568835966}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a132ebb16d23354b841b6618f4fa0e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3ebb33b18d5ebac40bb81b9b68d8dda6, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  colorMode: 0
-  secondColor: {r: 1, g: 1, b: 1, a: 1}
-  materialProperties:
-    FloatProperties: []
-  materialType: Default
-  materialEffect: 0
-  materialProperty1: 0
-  materialProperty2: 0
-  materialProperty3: 0
-  keepBorderAspectRatio: 1
-  spriteBorderScaleFallback:
-    screenConfigName: 
-    OptimizedSize: {x: 1, y: 1}
-    MinSize: {x: 0, y: 0}
-    MaxSize: {x: 3, y: 3}
-    ModX:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-    ModY:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-  customBorderScales:
-    items: []
-  fallbackSpriteSettings:
-    Sprite: {fileID: 21300000, guid: 3ebb33b18d5ebac40bb81b9b68d8dda6, type: 3}
-    ColorMode: 0
-    PrimaryColor: {r: 1, g: 1, b: 1, a: 1}
-    SecondaryColor: {r: 1, g: 1, b: 1, a: 1}
-    screenConfigName: 
-  customSpriteSettings:
-    items: []
 --- !u!222 &1568835970
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11636,7 +10351,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1659758005}
   - component: {fileID: 1659758007}
-  - component: {fileID: 1659758006}
+  - component: {fileID: 1659758008}
   m_Layer: 5
   m_Name: img_fillInner_PrizeProgress
   m_TagString: Untagged
@@ -11665,71 +10380,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -49.53}
   m_SizeDelta: {x: -50.83, y: -181.98}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1659758006
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1659758004}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a132ebb16d23354b841b6618f4fa0e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.28582484, g: 0.9245283, b: 0.19624424, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4ed7edde0ca0b4df3bf64b6d5f288cdf, type: 3}
-  m_Type: 3
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 0
-  m_FillAmount: 0
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  colorMode: 0
-  secondColor: {r: 1, g: 1, b: 1, a: 1}
-  materialProperties:
-    FloatProperties: []
-  materialType: Default
-  materialEffect: 0
-  materialProperty1: 0
-  materialProperty2: 0
-  materialProperty3: 0
-  keepBorderAspectRatio: 1
-  spriteBorderScaleFallback:
-    screenConfigName: 
-    OptimizedSize: {x: 1, y: 1}
-    MinSize: {x: 0, y: 0}
-    MaxSize: {x: 3, y: 3}
-    ModX:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-    ModY:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-  customBorderScales:
-    items: []
-  fallbackSpriteSettings:
-    Sprite: {fileID: 21300000, guid: 4ed7edde0ca0b4df3bf64b6d5f288cdf, type: 3}
-    ColorMode: 0
-    PrimaryColor: {r: 0.28582484, g: 0.9245283, b: 0.19624424, a: 1}
-    SecondaryColor: {r: 1, g: 1, b: 1, a: 1}
-    screenConfigName: 
-  customSpriteSettings:
-    items: []
 --- !u!222 &1659758007
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11738,6 +10388,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1659758004}
   m_CullTransparentMesh: 1
+--- !u!114 &1659758008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1659758004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 2e91c58ffc15bf5499ca26a7fa996d9a, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &1697354071
 GameObject:
   m_ObjectHideFlags: 0
@@ -11825,9 +10505,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1709949241}
   - component: {fileID: 1709949244}
-  - component: {fileID: 1709949243}
   - component: {fileID: 1709949242}
   - component: {fileID: 1709949245}
+  - component: {fileID: 1709949246}
   m_Layer: 5
   m_Name: btn_NextLevel
   m_TagString: Untagged
@@ -11896,7 +10576,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 1709949243}
+  m_TargetGraphic: {fileID: 1709949246}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -11912,71 +10592,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &1709949243
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709949240}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a132ebb16d23354b841b6618f4fa0e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3ebb33b18d5ebac40bb81b9b68d8dda6, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  colorMode: 0
-  secondColor: {r: 0.9019608, g: 0.54901963, b: 0.18431373, a: 1}
-  materialProperties:
-    FloatProperties: []
-  materialType: Default
-  materialEffect: 0
-  materialProperty1: 0
-  materialProperty2: 0
-  materialProperty3: 0
-  keepBorderAspectRatio: 1
-  spriteBorderScaleFallback:
-    screenConfigName: 
-    OptimizedSize: {x: 1, y: 1}
-    MinSize: {x: 0, y: 0}
-    MaxSize: {x: 3, y: 3}
-    ModX:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-    ModY:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-  customBorderScales:
-    items: []
-  fallbackSpriteSettings:
-    Sprite: {fileID: 21300000, guid: 3ebb33b18d5ebac40bb81b9b68d8dda6, type: 3}
-    ColorMode: 0
-    PrimaryColor: {r: 1, g: 1, b: 1, a: 1}
-    SecondaryColor: {r: 0.9019608, g: 0.54901963, b: 0.18431373, a: 1}
-    screenConfigName: 
-  customSpriteSettings:
-    items: []
 --- !u!222 &1709949244
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11998,6 +10613,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 1
+--- !u!114 &1709949246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709949240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 3ebb33b18d5ebac40bb81b9b68d8dda6, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &1713121911
 GameObject:
   m_ObjectHideFlags: 0
@@ -12169,117 +10814,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 300}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &1746969100
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1746969101}
-  - component: {fileID: 1746969103}
-  - component: {fileID: 1746969102}
-  m_Layer: 5
-  m_Name: img_innerShadow
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1746969101
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1746969100}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 353145105}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -21.1972, y: -21.1972}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1746969102
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1746969100}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a132ebb16d23354b841b6618f4fa0e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.42745098}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3b5eea0d0618d4b5990daedbe44c8847, type: 3}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  colorMode: 0
-  secondColor: {r: 1, g: 1, b: 1, a: 1}
-  materialProperties:
-    FloatProperties: []
-  materialType: Default
-  materialEffect: 0
-  materialProperty1: 0
-  materialProperty2: 0
-  materialProperty3: 0
-  keepBorderAspectRatio: 1
-  spriteBorderScaleFallback:
-    screenConfigName: 
-    OptimizedSize: {x: 1, y: 1}
-    MinSize: {x: 0, y: 0}
-    MaxSize: {x: 3, y: 3}
-    ModX:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-    ModY:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-  customBorderScales:
-    items: []
-  fallbackSpriteSettings:
-    Sprite: {fileID: 21300000, guid: 3b5eea0d0618d4b5990daedbe44c8847, type: 3}
-    ColorMode: 0
-    PrimaryColor: {r: 0, g: 0, b: 0, a: 0.42745098}
-    SecondaryColor: {r: 1, g: 1, b: 1, a: 1}
-    screenConfigName: 
-  customSpriteSettings:
-    items: []
---- !u!222 &1746969103
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1746969100}
-  m_CullTransparentMesh: 1
 --- !u!1 &1837223305
 GameObject:
   m_ObjectHideFlags: 0
@@ -12646,7 +11180,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 353145105}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -13006,7 +11540,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2058265891}
   - component: {fileID: 2058265893}
-  - component: {fileID: 2058265892}
   - component: {fileID: 2058265894}
   m_Layer: 5
   m_Name: pnl_nexLevelButton
@@ -13036,71 +11569,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 428}
   m_SizeDelta: {x: 650, y: 190}
   m_Pivot: {x: 0.5, y: 0}
---- !u!114 &2058265892
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2058265890}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a132ebb16d23354b841b6618f4fa0e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3ebb33b18d5ebac40bb81b9b68d8dda6, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  colorMode: 0
-  secondColor: {r: 1, g: 1, b: 1, a: 1}
-  materialProperties:
-    FloatProperties: []
-  materialType: Default
-  materialEffect: 0
-  materialProperty1: 0
-  materialProperty2: 0
-  materialProperty3: 0
-  keepBorderAspectRatio: 1
-  spriteBorderScaleFallback:
-    screenConfigName: 
-    OptimizedSize: {x: 1, y: 1}
-    MinSize: {x: 0, y: 0}
-    MaxSize: {x: 3, y: 3}
-    ModX:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-    ModY:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-  customBorderScales:
-    items: []
-  fallbackSpriteSettings:
-    Sprite: {fileID: 21300000, guid: 3ebb33b18d5ebac40bb81b9b68d8dda6, type: 3}
-    ColorMode: 0
-    PrimaryColor: {r: 1, g: 1, b: 1, a: 1}
-    SecondaryColor: {r: 1, g: 1, b: 1, a: 1}
-    screenConfigName: 
-  customSpriteSettings:
-    items: []
 --- !u!222 &2058265893
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13308,7 +11776,7 @@ RectTransform:
   m_Children:
   - {fileID: 1367789621}
   m_Father: {fileID: 1564822220}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -13466,8 +11934,8 @@ MonoBehaviour:
   txtPrizeProgress: {fileID: 1063596538}
   txtLevelProgress: {fileID: 419494363}
   txtCoin: {fileID: 645232217}
-  fillPrize: {fileID: 1659758006}
-  fillLevel: {fileID: 1549809320}
+  fillPrize: {fileID: 1659758008}
+  fillLevel: {fileID: 1549809322}
   initPosGiftPrize: {x: 0, y: 0}
   initPosChapterPrize: {x: 0, y: 0}
   BGEase: 0
@@ -13759,7 +12227,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 486001910573586282}
+  m_TargetGraphic: {fileID: 486001910573586288}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -13775,71 +12243,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &486001910573586282
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 486001910573586287}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a132ebb16d23354b841b6618f4fa0e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6e0e25f18356768468a2590427adb3a7, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  colorMode: 0
-  secondColor: {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 1}
-  materialProperties:
-    FloatProperties: []
-  materialType: Default
-  materialEffect: 0
-  materialProperty1: 0
-  materialProperty2: 0
-  materialProperty3: 0
-  keepBorderAspectRatio: 1
-  spriteBorderScaleFallback:
-    screenConfigName: 
-    OptimizedSize: {x: 1, y: 1}
-    MinSize: {x: 0, y: 0}
-    MaxSize: {x: 3, y: 3}
-    ModX:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-    ModY:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-  customBorderScales:
-    items: []
-  fallbackSpriteSettings:
-    Sprite: {fileID: 21300000, guid: 6e0e25f18356768468a2590427adb3a7, type: 3}
-    ColorMode: 0
-    PrimaryColor: {r: 1, g: 1, b: 1, a: 1}
-    SecondaryColor: {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 1}
-    screenConfigName: 
-  customSpriteSettings:
-    items: []
 --- !u!222 &486001910573586283
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13858,9 +12261,9 @@ GameObject:
   m_Component:
   - component: {fileID: 486001910573586280}
   - component: {fileID: 486001910573586283}
-  - component: {fileID: 486001910573586282}
   - component: {fileID: 486001910573586281}
   - component: {fileID: 486001910573586260}
+  - component: {fileID: 486001910573586288}
   m_Layer: 5
   m_Name: btn_Okey
   m_TagString: Untagged
@@ -13868,16 +12271,16 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!114 &486001910829772776
+--- !u!114 &486001910573586288
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 486001910829772782}
+  m_GameObject: {fileID: 486001910573586287}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0220f4040307f2a45a27ef20a895b030, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -13888,151 +12291,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: OKEY
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 52d1bfe434f3fb946a0bb8f195b66f2c, type: 2}
-  m_sharedMaterial: {fileID: 2704462000377146024, guid: 52d1bfe434f3fb946a0bb8f195b66f2c, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294966271
-  m_fontColor: {r: 1, g: 0.9858491, b: 0.9999997, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 94.95
-  m_fontSizeBase: 24
-  m_fontWeight: 400
-  m_enableAutoSizing: 1
-  m_fontSizeMin: 12.50625
-  m_fontSizeMax: 50.025
-  m_fontStyle: 17
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
-  fitting: 1
-  marginSizerFallback:
-    screenConfigName: 
-    OptimizedSize:
-      left: 0
-      right: 0
-      top: 0
-      bottom: 0
-    MinSize:
-      left: 0
-      right: 0
-      top: 0
-      bottom: 0
-    MaxSize:
-      left: 1000
-      right: 1000
-      top: 1000
-      bottom: 1000
-    ModLeft:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 1
-        Impact: 1
-    ModRight:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 1
-        Impact: 1
-    ModTop:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 1
-        Impact: 1
-    ModBottom:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 1
-        Impact: 1
-  customMarginSizers:
-    items: []
-  fontSizerFallback:
-    screenConfigName: 
-    OptimizedSize: 72
-    MinSize: 10
-    MaxSize: 500
-    Mod:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-  customFontSizers:
-    items: []
-  minFontSizerFallback:
-    screenConfigName: 
-    OptimizedSize: 18
-    MinSize: 10
-    MaxSize: 500
-    Mod:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-  customMinFontSizers:
-    items: []
-  maxFontSizerFallback:
-    screenConfigName: 
-    OptimizedSize: 72
-    MinSize: 500
-    MaxSize: 500
-    Mod:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-  customMaxFontSizers:
-    items: []
+  m_Sprite: {fileID: 21300000, guid: 3ebb33b18d5ebac40bb81b9b68d8dda6, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!222 &486001910829772777
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14051,7 +12319,6 @@ GameObject:
   m_Component:
   - component: {fileID: 486001910829772783}
   - component: {fileID: 486001910829772777}
-  - component: {fileID: 486001910829772776}
   m_Layer: 5
   m_Name: txt_Play
   m_TagString: Untagged
@@ -14089,7 +12356,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1924080840430506881}
   - component: {fileID: 1924080840430506943}
-  - component: {fileID: 1924080840430506940}
+  - component: {fileID: 1924080840430506944}
   m_Layer: 5
   m_Name: img_bg
   m_TagString: Untagged
@@ -14120,7 +12387,15 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1924080840430506940
+--- !u!222 &1924080840430506943
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1924080840430506880}
+  m_CullTransparentMesh: 1
+--- !u!114 &1924080840430506944
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -14129,7 +12404,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1924080840430506880}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a132ebb16d23354b841b6618f4fa0e5, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -14150,49 +12425,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
-  colorMode: 2
-  secondColor: {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 1}
-  materialProperties:
-    FloatProperties: []
-  materialType: Default
-  materialEffect: 0
-  materialProperty1: 0
-  materialProperty2: 0
-  materialProperty3: 0
-  keepBorderAspectRatio: 1
-  spriteBorderScaleFallback:
-    screenConfigName: 
-    OptimizedSize: {x: 1, y: 1}
-    MinSize: {x: 0, y: 0}
-    MaxSize: {x: 3, y: 3}
-    ModX:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-    ModY:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-  customBorderScales:
-    items: []
-  fallbackSpriteSettings:
-    Sprite: {fileID: 21300000, guid: bc7b0ccf29a019e4d8e2285bac000ccf, type: 3}
-    ColorMode: 2
-    PrimaryColor: {r: 1, g: 1, b: 1, a: 1}
-    SecondaryColor: {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 1}
-    screenConfigName: 
-  customSpriteSettings:
-    items: []
---- !u!222 &1924080840430506943
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1924080840430506880}
-  m_CullTransparentMesh: 1
 --- !u!222 &1924080841009195634
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14417,71 +12649,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -13.999999, y: -13.999999}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1924080841193491658
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1924080841193491660}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a132ebb16d23354b841b6618f4fa0e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 84fda8a21e800be44b16938f24ee34f0, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 1
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  colorMode: 2
-  secondColor: {r: 0.4292453, g: 0.5499819, b: 1, a: 1}
-  materialProperties:
-    FloatProperties: []
-  materialType: Default
-  materialEffect: 0
-  materialProperty1: 0
-  materialProperty2: 0
-  materialProperty3: 0
-  keepBorderAspectRatio: 0
-  spriteBorderScaleFallback:
-    screenConfigName: 
-    OptimizedSize: {x: 1, y: 1}
-    MinSize: {x: 0, y: 0}
-    MaxSize: {x: 3, y: 3}
-    ModX:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-    ModY:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-  customBorderScales:
-    items: []
-  fallbackSpriteSettings:
-    Sprite: {fileID: 21300000, guid: 84fda8a21e800be44b16938f24ee34f0, type: 3}
-    ColorMode: 2
-    PrimaryColor: {r: 1, g: 1, b: 1, a: 1}
-    SecondaryColor: {r: 0.4292453, g: 0.5499819, b: 1, a: 1}
-    screenConfigName: 
-  customSpriteSettings:
-    items: []
 --- !u!222 &1924080841193491659
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14500,7 +12667,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1924080841193491661}
   - component: {fileID: 1924080841193491659}
-  - component: {fileID: 1924080841193491658}
+  - component: {fileID: 1924080841193491662}
   m_Layer: 5
   m_Name: img_currencyIcon
   m_TagString: Untagged
@@ -14529,6 +12696,36 @@ RectTransform:
   m_AnchoredPosition: {x: 54, y: -5.000122}
   m_SizeDelta: {x: 80, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1924080841193491662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1924080841193491660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 84fda8a21e800be44b16938f24ee34f0, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &1924080841339290148
 GameObject:
   m_ObjectHideFlags: 0
@@ -14718,71 +12915,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1924080841703577343}
   m_CullTransparentMesh: 1
---- !u!114 &1924080841703577283
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1924080841703577343}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a132ebb16d23354b841b6618f4fa0e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: bc7b0ccf29a019e4d8e2285bac000ccf, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  colorMode: 2
-  secondColor: {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 1}
-  materialProperties:
-    FloatProperties: []
-  materialType: Default
-  materialEffect: 0
-  materialProperty1: 0
-  materialProperty2: 0
-  materialProperty3: 0
-  keepBorderAspectRatio: 1
-  spriteBorderScaleFallback:
-    screenConfigName: 
-    OptimizedSize: {x: 1, y: 1}
-    MinSize: {x: 0, y: 0}
-    MaxSize: {x: 3, y: 3}
-    ModX:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-    ModY:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-  customBorderScales:
-    items: []
-  fallbackSpriteSettings:
-    Sprite: {fileID: 21300000, guid: bc7b0ccf29a019e4d8e2285bac000ccf, type: 3}
-    ColorMode: 2
-    PrimaryColor: {r: 1, g: 1, b: 1, a: 1}
-    SecondaryColor: {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 1}
-    screenConfigName: 
-  customSpriteSettings:
-    items: []
 --- !u!224 &1924080841703577342
 RectTransform:
   m_ObjectHideFlags: 0
@@ -14816,7 +12948,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1924080841703577342}
   - component: {fileID: 1924080841703577280}
-  - component: {fileID: 1924080841703577283}
+  - component: {fileID: 1924080841703577344}
   m_Layer: 5
   m_Name: img_bg
   m_TagString: Untagged
@@ -14824,6 +12956,36 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1924080841703577344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1924080841703577343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: bc7b0ccf29a019e4d8e2285bac000ccf, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!224 &1924080842064759218
 RectTransform:
   m_ObjectHideFlags: 0
@@ -14880,7 +13042,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1924080842064759219}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a132ebb16d23354b841b6618f4fa0e5, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -14893,7 +13055,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 84fda8a21e800be44b16938f24ee34f0, type: 3}
   m_Type: 0
-  m_PreserveAspect: 1
+  m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -14901,41 +13063,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
-  colorMode: 2
-  secondColor: {r: 0.4292453, g: 0.5499819, b: 1, a: 1}
-  materialProperties:
-    FloatProperties: []
-  materialType: Default
-  materialEffect: 0
-  materialProperty1: 0
-  materialProperty2: 0
-  materialProperty3: 0
-  keepBorderAspectRatio: 0
-  spriteBorderScaleFallback:
-    screenConfigName: 
-    OptimizedSize: {x: 1, y: 1}
-    MinSize: {x: 0, y: 0}
-    MaxSize: {x: 3, y: 3}
-    ModX:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-    ModY:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-  customBorderScales:
-    items: []
-  fallbackSpriteSettings:
-    Sprite: {fileID: 21300000, guid: 84fda8a21e800be44b16938f24ee34f0, type: 3}
-    ColorMode: 2
-    PrimaryColor: {r: 1, g: 1, b: 1, a: 1}
-    SecondaryColor: {r: 0.4292453, g: 0.5499819, b: 1, a: 1}
-    screenConfigName: 
-  customSpriteSettings:
-    items: []
 --- !u!224 &1924080842122313528
 RectTransform:
   m_ObjectHideFlags: 0
@@ -15319,7 +13446,7 @@ RectTransform:
   m_Children:
   - {fileID: 3047587257630699999}
   m_Father: {fileID: 5296590551078936163}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -16011,71 +14138,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5296590551078936164}
   m_CullTransparentMesh: 1
---- !u!114 &5296590551078936161
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5296590551078936164}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a132ebb16d23354b841b6618f4fa0e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3ebb33b18d5ebac40bb81b9b68d8dda6, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  colorMode: 2
-  secondColor: {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 1}
-  materialProperties:
-    FloatProperties: []
-  materialType: Default
-  materialEffect: 0
-  materialProperty1: 0
-  materialProperty2: 0
-  materialProperty3: 0
-  keepBorderAspectRatio: 1
-  spriteBorderScaleFallback:
-    screenConfigName: 
-    OptimizedSize: {x: 1, y: 1}
-    MinSize: {x: 0, y: 0}
-    MaxSize: {x: 3, y: 3}
-    ModX:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-    ModY:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-  customBorderScales:
-    items: []
-  fallbackSpriteSettings:
-    Sprite: {fileID: 21300000, guid: 3ebb33b18d5ebac40bb81b9b68d8dda6, type: 3}
-    ColorMode: 2
-    PrimaryColor: {r: 1, g: 1, b: 1, a: 1}
-    SecondaryColor: {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 1}
-    screenConfigName: 
-  customSpriteSettings:
-    items: []
 --- !u!114 &5296590551078936162
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16116,7 +14178,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 5296590551078936161}
+  m_TargetGraphic: {fileID: 5722001103907829339}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -16144,7 +14206,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 5296590552318117983}
   - {fileID: 5296590551335642852}
   - {fileID: 3047587256698028431}
   m_Father: {fileID: 972412448}
@@ -16165,10 +14226,10 @@ GameObject:
   m_Component:
   - component: {fileID: 5296590551078936163}
   - component: {fileID: 5296590551078936160}
-  - component: {fileID: 5296590551078936161}
   - component: {fileID: 5296590551078936162}
   - component: {fileID: 5296590551078936159}
   - component: {fileID: 5722001103907829338}
+  - component: {fileID: 5722001103907829339}
   m_Layer: 5
   m_Name: btn_Claim
   m_TagString: Untagged
@@ -16198,7 +14259,46 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5296590551335642853}
   m_CullTransparentMesh: 1
---- !u!114 &5296590551335642851
+--- !u!224 &5296590551335642852
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5296590551335642853}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5296590551078936163}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0.95000076}
+  m_SizeDelta: {x: -106.97, y: -43.36}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &5296590551335642853
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5296590551335642852}
+  - component: {fileID: 5296590551335642850}
+  - component: {fileID: 5296590551335642849}
+  - component: {fileID: 5296590551335642854}
+  m_Layer: 5
+  m_Name: txt_Play
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &5296590551335642854
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -16207,7 +14307,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5296590551335642853}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0220f4040307f2a45a27ef20a895b030, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -16218,17 +14318,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: CLAIM
+  m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 693430919429cff4d9e10f1225ca56c8, type: 2}
-  m_sharedMaterial: {fileID: -2935581447736933011, guid: 693430919429cff4d9e10f1225ca56c8, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294966271
-  m_fontColor: {r: 1, g: 0.9858491, b: 0.9999997, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -16245,15 +14345,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50.025
-  m_fontSizeBase: 24
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
-  m_enableAutoSizing: 1
-  m_fontSizeMin: 12.50625
-  m_fontSizeMax: 50.025
-  m_fontStyle: 17
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -16287,232 +14387,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
-  fitting: 1
-  marginSizerFallback:
-    screenConfigName: 
-    OptimizedSize:
-      left: 0
-      right: 0
-      top: 0
-      bottom: 0
-    MinSize:
-      left: 0
-      right: 0
-      top: 0
-      bottom: 0
-    MaxSize:
-      left: 1000
-      right: 1000
-      top: 1000
-      bottom: 1000
-    ModLeft:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 1
-        Impact: 1
-    ModRight:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 1
-        Impact: 1
-    ModTop:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 1
-        Impact: 1
-    ModBottom:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 1
-        Impact: 1
-  customMarginSizers:
-    items: []
-  fontSizerFallback:
-    screenConfigName: 
-    OptimizedSize: 72
-    MinSize: 10
-    MaxSize: 500
-    Mod:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-  customFontSizers:
-    items: []
-  minFontSizerFallback:
-    screenConfigName: 
-    OptimizedSize: 18
-    MinSize: 10
-    MaxSize: 500
-    Mod:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-  customMinFontSizers:
-    items: []
-  maxFontSizerFallback:
-    screenConfigName: 
-    OptimizedSize: 72
-    MinSize: 500
-    MaxSize: 500
-    Mod:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-  customMaxFontSizers:
-    items: []
---- !u!224 &5296590551335642852
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5296590551335642853}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 5296590551078936163}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.95000076}
-  m_SizeDelta: {x: -106.97, y: -43.36}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &5296590551335642853
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5296590551335642852}
-  - component: {fileID: 5296590551335642850}
-  - component: {fileID: 5296590551335642851}
-  - component: {fileID: 5296590551335642849}
-  m_Layer: 5
-  m_Name: txt_Play
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!222 &5296590552318117981
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5296590552318117984}
-  m_CullTransparentMesh: 1
---- !u!114 &5296590552318117982
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5296590552318117984}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a132ebb16d23354b841b6618f4fa0e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.42745098}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3b5eea0d0618d4b5990daedbe44c8847, type: 3}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  colorMode: 0
-  secondColor: {r: 1, g: 1, b: 1, a: 1}
-  materialProperties:
-    FloatProperties: []
-  materialType: Default
-  materialEffect: 0
-  materialProperty1: 0
-  materialProperty2: 0
-  materialProperty3: 0
-  keepBorderAspectRatio: 1
-  spriteBorderScaleFallback:
-    screenConfigName: 
-    OptimizedSize: {x: 1, y: 1}
-    MinSize: {x: 0, y: 0}
-    MaxSize: {x: 3, y: 3}
-    ModX:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-    ModY:
-      ExponentialScale: 1
-      SizeModifiers:
-      - Mode: 0
-        Impact: 1
-  customBorderScales:
-    items: []
-  fallbackSpriteSettings:
-    Sprite: {fileID: 21300000, guid: 3b5eea0d0618d4b5990daedbe44c8847, type: 3}
-    ColorMode: 0
-    PrimaryColor: {r: 0, g: 0, b: 0, a: 0.42745098}
-    SecondaryColor: {r: 1, g: 1, b: 1, a: 1}
-    screenConfigName: 
-  customSpriteSettings:
-    items: []
---- !u!224 &5296590552318117983
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5296590552318117984}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 5296590551078936163}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -21.1972, y: -21.1972}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &5296590552318117984
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5296590552318117983}
-  - component: {fileID: 5296590552318117981}
-  - component: {fileID: 5296590552318117982}
-  m_Layer: 5
-  m_Name: img_innerShadow
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!114 &5722001103907829338
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16526,6 +14400,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 1
+--- !u!114 &5722001103907829339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5296590551078936164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 3ebb33b18d5ebac40bb81b9b68d8dda6, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &6727210637846470626
 GameObject:
   m_ObjectHideFlags: 0
